@@ -9,16 +9,16 @@ const mockDB = [
     name: "Deluxe Suite",
     capacity: 2,
     amenities: ["AC", "WiFi", "TV", "Attached Bath"],
-    price: 2000,
-    image: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&h=600&fit=crop"
+    price: 500,
+    image: "https://www.govtpolytechnicjammu.edu.in/images/210409-guest-house2.jpg?w=800&h=600&fit=crop"
   },
   {
     id: 2,
     name: "Standard Room",
     capacity: 3,
     amenities: ["AC", "WiFi", "Attached Bath"],
-    price: 1500,
-    image: "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=800&h=600&fit=crop"
+    price: 350,
+    image: "https://guesthouse.mnit.ac.in/public/assets/img/mnit/gallery/id_5.jpg?w=800&h=600&fit=crop"
   }
 ];
 
@@ -191,7 +191,7 @@ export default function GuestHouseBooking({ onAdminClick }) {
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6">About Our Guest House</h2>
             <p className="text-lg text-slate-300 dark:text-gray-700 leading-relaxed mb-4">
-              The Indian Institute of Information Technology, Naya Raipur provides quality accommodation 
+              The International Institute of Information Technology, Naya Raipur provides quality accommodation 
               for visiting faculty, researchers, students' families, and official guests. Our guest house 
               is designed to offer a comfortable stay with modern amenities.
             </p>
@@ -409,4 +409,4 @@ export default function GuestHouseBooking({ onAdminClick }) {
       </div>
     </div>
   );
-}
+} 
